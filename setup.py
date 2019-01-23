@@ -5,14 +5,13 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="routersploit",
-    version="3.4.0",
+    name="indusploit",
+    version="0",
     description="Exploitation Framework for Embedded Devices",
     long_description=long_description,
     author="Threat9",
-    author_email="marcin@threat9.com",
-    url="https://www.threat9.com",
-    download_url="https://github.com/threat9/routersploit/",
+    author_email="indranil.r5198@gmail.com",
+    
     packages=find_packages(),
     include_package_data=True,
     scripts=('rsf.py',),
@@ -30,7 +29,7 @@ setup(
             "pytest-forked",
             "pytest-xdist",
             "flake8",
-        ],
+       
     },
     classifiers=[
         "Operating System :: POSIX",
