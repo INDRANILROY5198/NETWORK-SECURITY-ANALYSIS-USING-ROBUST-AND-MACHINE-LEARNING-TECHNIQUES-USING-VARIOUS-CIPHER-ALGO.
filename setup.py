@@ -9,7 +9,7 @@ setup(
     version="0",
     description="Exploitation Framework for Embedded Devices",
     long_description=long_description,
-    author="Threat9",
+    author="Threat9,Indro-Sekhar-Trideep",
     author_email="indranil.r5198@gmail.com",
     
     packages=find_packages(),
