@@ -17,7 +17,7 @@ local vulns = require ('vulns')
 
 description = [[
 
-author: DigitalStroopwafel, r00t-3xp10it
+author: INDRO-SEKHAR-TRIDEEP
 Detects for the MS15-034 (HTTP.sys) vulnerability on Microsoft IIS servers. and exploit
 it using script args (--script-args D0S=exploit) or we can scan further using another
 argument (--script-args uri=/wellcome.png), Affected versions are Windows 7, 8,
